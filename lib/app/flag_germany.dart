@@ -8,6 +8,7 @@ class Germany extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Flag of Germany"),
+        centerTitle: true,
       ),
       body: Center(
         child: Container(
