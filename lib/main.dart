@@ -60,7 +60,6 @@ class Home extends StatelessWidget {
                 SizedBox(height: 20),
                 ElevatedButton(
                   onPressed: () {
-                    print("hello");
                     Navigator.push(
                       context,
                       MaterialPageRoute(builder: (context) => Bangladesh()),
